@@ -1,0 +1,118 @@
+.about-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d3a2e;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #2d5a27, #4a8c3f);
+  border-radius: 16px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.about-title {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.about-tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.about-section {
+  background: #f9fdf9;
+  border-left: 4px solid #4a8c3f;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.about-section h2 {
+  font-size: 1.6rem;
+  color: #2d5a27;
+  margin-bottom: 16px;
+}
+
+.about-section p {
+  line-height: 1.8;
+  color: #4a5568;
+  margin-bottom: 12px;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e2f0e2;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+.about-list li:last-child {
+  border-bottom: none;
+}
+
+.team-grid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.team-card {
+  flex: 1;
+  min-width: 160px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  padding: 24px 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.team-avatar {
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+.team-card h3 {
+  font-size: 1.1rem;
+  color: #2d5a27;
+  margin-bottom: 6px;
+}
+
+.team-card p {
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+.contact-info {
+  margin-top: 16px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+.contact-info a {
+  color: #4a8c3f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
